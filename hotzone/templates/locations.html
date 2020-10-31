@@ -1,0 +1,9 @@
+<h1> Location Search using GeoData API </h1>
+
+<form action="." method="POST">{% csrf_token %}
+    <input type="text" name="title" placeholder="Your Location">
+    <input type="submit" value="Save">
+</form>
+
+<h2>The First result is:</h2>
+<div>{{info}}</div>
