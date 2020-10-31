@@ -1,3 +1,5 @@
+gunicorn hotzone_config.wsgi
+
 """
 WSGI config for hotzone_config project.
 
